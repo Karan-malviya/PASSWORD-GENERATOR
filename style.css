@@ -1,0 +1,155 @@
+
+
+
+.container{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(184, 110, 184);
+    align-items: center;
+   justify-content: center;
+}
+
+
+h1{
+   color: cornflowerblue;
+   opacity: 0.75;
+   text-transform: uppercase;
+   align-items: center;
+   letter-spacing: 2px;
+   line-height: 1.2;
+
+}
+.display-container{
+    position: relative;
+    background-color:rgb(201, 198, 237);
+    border-radius: 0.35rem;
+    border-bottom: 0.35 solid;
+    margin:1rem;
+    padding:0.35rem;
+}
+.display{
+    width: 60%;
+    background:transparent;
+    padding: .15rem  1rem;
+    color: chocolate;
+    font-weight: 600;
+    font-size:.15rem  1rem ;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding-right: 3.25rem;
+    border: none;
+}
+.display::placeholder{
+    position: absolute;
+    top:30%;
+    left: 20rem;
+font-size: 1rem;
+   
+line-height: 30px; 
+
+color: yellow;
+opacity: 0.75;
+text-transform: uppercase;
+
+}
+.display-container button{
+position: absolute;
+top:21%;
+right:0.70rem;
+
+}
+
+.input-container{
+width:15%;
+background-color: rgb(115, 51, 160);
+border-radius: 1rem;
+padding: 2rem;
+border-bottom: 0.35 solid  rgb(153, 19, 153);
+}
+
+.length-container{
+display: flex;
+justify-content: center;
+justify-content: space-between;
+}
+.length-container p:nth-child(1){
+font-size: 1.3rem;
+color: white;
+}
+.length-container p:nth-child(2){
+font-size: 1.3rem;
+color: yellow;
+
+}
+
+.strength-container p{
+color: white;
+font-size: 1.5rem;
+
+}
+.indicator{
+width: 25px; 
+height: 25px;
+border-radius: 50%; 
+background-color: red; 
+position: relative;
+left:14rem;
+bottom: 40px;
+}
+.generateButton{
+width: 100%;
+padding: 1rem 0;
+background-color: rgb(172, 55, 218);
+text-align: center;
+border-radius: 0.75rem;
+border-bottom: 0.25rem solid rgb(255, 255, 0);
+text-transform: uppercase;
+color: yellow;
+font-weight: 500;
+font-size: 0.90rem;
+
+}
+
+
+.checkinput{
+    position:relative;
+ z-index:1;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid color(rgb(41, 80, 64));
+    cursor: pointer;
+    position: relative;
+    border-radius: 0.35rem;
+}
+
+.check input:checked{
+    background-color: cyan;
+}
+.check input:checked::before{
+    content: '✓';
+    position: absolute;
+    color:green;
+    font-size: 1.05rem;
+    font-weight: 500;
+    left: 50%;
+    top: -3.5px;
+    transform:   translateX(-50%) translateY(-40%);
+    
+}
+.copybtn{
+    background:transparent;
+    border:none;
+    outline:none;
+}
+
+.slider{
+   
+    width:100%;
+
+} */
+
+
+
